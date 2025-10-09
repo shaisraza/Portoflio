@@ -89,20 +89,6 @@ const Experience = () => {
                     </div>
 
                     <p className="text-foreground/80 leading-relaxed">{exp.description}</p>
-
-                    <div className="space-y-2">
-                      <p className="font-semibold text-sm text-muted-foreground uppercase tracking-wide">
-                        Key Achievements
-                      </p>
-                      <ul className="space-y-2">
-                        {exp.highlights.map((highlight, idx) => (
-                          <li key={idx} className="flex items-start gap-2">
-                            <div className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0" />
-                            <span className="text-foreground/80">{highlight}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
                   </div>
                 </Card>
               </div>
