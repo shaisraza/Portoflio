@@ -34,16 +34,16 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground leading-tight">
-              Shaiss Raza
+              Shais Raza
             </h1>
             <p className="text-xl md:text-2xl text-primary-foreground/90 font-light">
-              Professional Title | Industry Leader | Innovator
+              Product Manager | B2B & B2C SaaS Expert | Tech Innovator
             </p>
           </div>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto leading-relaxed">
-            Passionate about driving innovation and creating impactful solutions.
-            Specializing in technology, leadership, and strategic development.
+            5+ years of experience building B2B and B2C SaaS products for Fortune 500s and millions of users.
+            Skilled at leading teams, launching features that solve problems, and aligning product strategy with business goals.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">

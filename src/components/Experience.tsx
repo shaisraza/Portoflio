@@ -5,39 +5,44 @@ import { Briefcase, Calendar } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Position",
-      company: "Company Name",
-      period: "2020 - Present",
+      title: "Product Manager",
+      company: "American Medical Association (AMA)",
+      period: "2023 - Present",
       description:
-        "Leading strategic initiatives and driving innovation across multiple projects. Responsible for team leadership, project management, and delivering exceptional results.",
+        "Leading sign-in experiences for 15+ products used by 2M+ users. Managing a 12-member agile team and collaborating with Analytics, Engineering, UX & QA to deliver secure login experiences (OIDC, SMS, OAuth).",
       highlights: [
-        "Led team of 10+ professionals",
-        "Increased efficiency by 40%",
-        "Delivered 15+ successful projects",
+        "Built 15+ features that reduced friction by 27% and boosted logins/account creations by 16%",
+        "Scaled backlog from 15 to 150+ tickets via feedback loops and prioritized 10+ epics",
+        "Gathered feedback from 50+ stakeholders to shape backlog and roadmap priorities",
+        "Used GA4, SQL, and A/B tests to optimize user journeys",
+        "Presented quarterly to C-suite, securing resources for B2B growth",
       ],
     },
     {
-      title: "Mid-Level Position",
-      company: "Previous Company",
-      period: "2017 - 2020",
+      title: "Associate Product Manager",
+      company: "Copyright Clearance Center (CCC)",
+      period: "2021 - 2023",
       description:
-        "Managed key projects and contributed to organizational growth. Developed innovative solutions and collaborated with cross-functional teams.",
+        "Managed two B2B SaaS products used by Fortune 500 companies. Gathered insights from Salesforce, support tickets & 50+ client interviews. Collaborated with Engineering, Legal & Finance on pricing and SOWs.",
       highlights: [
-        "Managed $2M+ in projects",
-        "Improved processes by 30%",
-        "Mentored junior team members",
+        "Launched 5+ features and 15+ enhancements, generating $175K from 25 renewal/upsell contracts",
+        "Performed TAM analysis of 1,200 companies via NAICS codes",
+        "Integrated 15+ semantic vocabularies to ontology search engine",
+        "Authored docs and led weekly office hours for 50+ team members",
       ],
     },
     {
-      title: "Junior Position",
-      company: "Earlier Company",
-      period: "2015 - 2017",
+      title: "Founder",
+      company: "HouseCuts",
+      period: "2020 - 2021",
       description:
-        "Contributed to various projects and gained foundational experience in the industry. Quickly advanced through demonstrated excellence and dedication.",
+        "Built a platform for booking in-home haircuts with local professionals. Completed 10K+ appointments and generated $325K+ revenue over 5+ years, maintaining a 5-star Google rating.",
       highlights: [
-        "Completed 20+ projects",
-        "Earned promotion in 18 months",
-        "Received excellence award",
+        "Bootstrapped company to achieve 400% ROI ($325K from $65K)",
+        "Built full-stack application in 1 year with Acuity & Square API integrations",
+        "Created a new pricing model and ran CAC-optimized campaigns from Google, Indeed, and NextDoor",
+        "Featured on Chronicle 7 News, leading to 250% overnight growth",
+        "Expanded to campuses, hospitals & senior homes",
       ],
     },
   ];

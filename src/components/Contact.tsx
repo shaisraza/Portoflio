@@ -7,8 +7,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "contact@example.com",
-      href: "mailto:contact@example.com",
+      value: "shaisraza@outlook.com",
+      href: "mailto:shaisraza@outlook.com",
     },
     {
       icon: Linkedin,
@@ -19,14 +19,14 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/username",
-      href: "https://github.com/username",
+      value: "github.com/shaisraza",
+      href: "https://github.com/shaisraza",
     },
     {
-      icon: Globe,
-      label: "Website",
-      value: "portfolio.com",
-      href: "https://portfolio.com",
+      icon: Mail,
+      label: "Phone",
+      value: "(248) 798-0669",
+      href: "tel:+12487980669",
     },
   ];
 
@@ -80,7 +80,7 @@ const Contact = () => {
             <Button
               size="lg"
               className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-glow"
-              onClick={() => window.open("mailto:contact@example.com", "_blank")}
+              onClick={() => window.open("mailto:shaisraza@outlook.com", "_blank")}
             >
               Send Me a Message
             </Button>

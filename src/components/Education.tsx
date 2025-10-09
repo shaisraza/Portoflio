@@ -5,26 +5,25 @@ import { GraduationCap, Award } from "lucide-react";
 const Education = () => {
   const education = [
     {
-      degree: "Master's Degree",
-      field: "Business Administration / Computer Science / Engineering",
-      institution: "University Name",
-      year: "2015",
-      description: "Specialized in strategic management and advanced technical concepts.",
+      degree: "Master of Science",
+      field: "Entrepreneurship & Technology",
+      institution: "Babson College, F.W Olin Graduate School of Business",
+      year: "2019 - 2020",
+      description: "Advanced studies combining entrepreneurship, technology, and business strategy.",
     },
     {
-      degree: "Bachelor's Degree",
-      field: "Related Field",
-      institution: "University Name",
-      year: "2013",
-      description: "Graduated with honors, focusing on foundational concepts and practical applications.",
+      degree: "Bachelor of Science",
+      field: "Microbiology",
+      institution: "Michigan State University",
+      year: "2014 - 2018",
+      description: "Comprehensive undergraduate education in biological sciences with a focus on research methodology and data analysis.",
     },
   ];
 
   const certifications = [
-    "Professional Certification",
-    "Industry Certification",
-    "Leadership Certification",
-    "Technical Certification",
+    "Full-Stack Development with MERN and GenAI",
+    "SAFe Product Owner - Product Manager",
+    "Quantum Metrics, Testim Foundations",
   ];
 
   return (

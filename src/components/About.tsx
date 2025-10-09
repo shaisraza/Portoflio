@@ -5,18 +5,18 @@ const About = () => {
   const values = [
     {
       icon: Target,
-      title: "Mission-Driven",
-      description: "Focused on delivering exceptional results and driving meaningful change.",
+      title: "Product-Led",
+      description: "Focused on aligning product strategy with business goals and customer needs to deliver measurable impact.",
     },
     {
       icon: Lightbulb,
-      title: "Innovative Thinker",
-      description: "Constantly exploring new ideas and approaches to solve complex challenges.",
+      title: "Data-Driven",
+      description: "Leveraging GA4, SQL, and A/B testing to optimize user journeys and make informed decisions.",
     },
     {
       icon: Award,
-      title: "Excellence",
-      description: "Committed to the highest standards of quality and professionalism.",
+      title: "User-Centric",
+      description: "Building features that solve real problems and reduce friction for millions of users.",
     },
   ];
 
@@ -38,16 +38,17 @@ const About = () => {
           <Card className="p-8 md:p-12 shadow-elegant animate-fade-in">
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground/80 leading-relaxed mb-6">
-                Welcome! I'm a results-oriented professional with extensive experience in
-                driving innovation and leading strategic initiatives. My career has been
-                defined by a commitment to excellence and a passion for creating meaningful
-                impact.
+                I'm a Product Manager with 5+ years of experience building B2B and B2C SaaS products 
+                for Fortune 500 companies and millions of users. My career has been defined by leading 
+                cross-functional teams, launching features that solve real problems, and aligning product 
+                strategy with business goals and customer needs.
               </p>
               <p className="text-foreground/80 leading-relaxed">
-                Throughout my journey, I've developed a unique blend of technical expertise
-                and leadership skills, enabling me to bridge the gap between vision and
-                execution. I thrive in dynamic environments where I can leverage my experience
-                to solve complex challenges and deliver exceptional outcomes.
+                From managing sign-in experiences for 2M+ users at the American Medical Association to 
+                founding HouseCuts and bootstrapping it to 400% ROI, I bring a unique blend of enterprise 
+                product management and entrepreneurial thinking. I leverage data-driven insights, agile 
+                methodologies, and full-stack development skills to deliver secure, user-centric experiences 
+                that drive measurable business impact.
               </p>
             </div>
           </Card>
