@@ -37,18 +37,11 @@ const About = () => {
           {/* Bio */}
           <Card className="p-8 md:p-12 shadow-elegant animate-fade-in">
             <div className="prose prose-lg max-w-none">
-              <p className="text-foreground/80 leading-relaxed mb-6">
+              <p className="text-foreground/80 leading-relaxed">
                 I'm a Product Manager with 5+ years of experience building B2B and B2C SaaS products 
                 for Fortune 500 companies and millions of users. My career has been defined by leading 
                 cross-functional teams, launching features that solve real problems, and aligning product 
                 strategy with business goals and customer needs.
-              </p>
-              <p className="text-foreground/80 leading-relaxed">
-                From managing sign-in experiences for 2M+ users at the American Medical Association to 
-                founding HouseCuts and bootstrapping it to 400% ROI, I bring a unique blend of enterprise 
-                product management and entrepreneurial thinking. I leverage data-driven insights, agile 
-                methodologies, and full-stack development skills to deliver secure, user-centric experiences 
-                that drive measurable business impact.
               </p>
             </div>
           </Card>
