@@ -56,21 +56,12 @@ const Hero = () => {
             </Button>
             <Button
               size="lg"
-              variant="outline"
               onClick={() => scrollToSection("experience")}
-              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10"
+              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-glow px-8"
             >
               View My Work
             </Button>
           </div>
-
-          <button
-            onClick={() => scrollToSection("about")}
-            className="absolute bottom-8 left-1/2 -translate-x-1/2 text-primary-foreground/70 hover:text-primary-foreground transition-colors animate-bounce"
-            aria-label="Scroll down"
-          >
-            <ArrowDown size={32} />
-          </button>
         </div>
       </div>
     </section>
