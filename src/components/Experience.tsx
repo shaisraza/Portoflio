@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Briefcase, Calendar } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Briefcase, Calendar, ExternalLink } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
@@ -17,6 +18,7 @@ const Experience = () => {
         "Used GA4, SQL, and A/B tests to optimize user journeys",
         "Presented quarterly to C-suite, securing resources for B2B growth",
       ],
+      companyUrl: "https://ama-assn.org/",
     },
     {
       title: "Associate Product Manager",
@@ -30,6 +32,7 @@ const Experience = () => {
         "Integrated 15+ semantic vocabularies to ontology search engine",
         "Authored docs and led weekly office hours for 50+ team members",
       ],
+      companyUrl: "https://www.copyright.com/",
     },
     {
       title: "Founder",
@@ -89,6 +92,25 @@ const Experience = () => {
                     </div>
 
                     <p className="text-foreground/80 leading-relaxed">{exp.description}</p>
+
+                    {exp.companyUrl && (
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        asChild
+                        className="mt-4"
+                      >
+                        <a
+                          href={exp.companyUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2"
+                        >
+                          View Company
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      </Button>
+                    )}
                   </div>
                 </Card>
               </div>
