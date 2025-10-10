@@ -46,14 +46,7 @@ const Hero = () => {
             Skilled at leading teams, launching features that solve problems, and aligning product strategy with business goals.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            <Button
-              size="lg"
-              onClick={() => scrollToSection("contact")}
-              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-glow px-8"
-            >
-              Get in Touch
-            </Button>
+          <div className="flex justify-center pt-4">
             <Button
               size="lg"
               onClick={() => scrollToSection("experience")}
