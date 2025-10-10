@@ -4,7 +4,40 @@ import { Button } from "@/components/ui/button";
 import { Briefcase, Calendar, ExternalLink } from "lucide-react";
 
 const Experience = () => {
-  const experiences = [
+  const startupExperiences = [
+    {
+      title: "Founder",
+      company: "Autoaply",
+      period: "2025 - Present",
+      description:
+        "Vibe coded a platform that allows people to automatically apply to jobs using AI agents. Integrated Langchain, Stripe, Supabase. Scaled platform to 1k+ users without any marketing spend.",
+      companyUrl: "https://www.autoaply.co/",
+    },
+    {
+      title: "Founder",
+      company: "AptShine",
+      period: "2023 - 2025",
+      description:
+        "Developed full-stack application allowing people to book cleaning services for their apartments/condos in the greater Chicago area. Regularly service 15+ buildings on a monthly basis with a network of 20+ professionals.",
+      companyUrl: "https://www.aptshine.com/",
+    },
+    {
+      title: "Founder",
+      company: "HouseCuts",
+      period: "2020 - 2023",
+      description:
+        "Built a platform for booking in-home haircuts with local professionals. Completed 10K+ appointments and generated $325K+ revenue over 5+ years, maintaining a 5-star Google rating.",
+      highlights: [
+        "Bootstrapped company to achieve 400% ROI ($325K from $65K)",
+        "Built full-stack application in 1 year with Acuity & Square API integrations",
+        "Created a new pricing model and ran CAC-optimized campaigns from Google, Indeed, and NextDoor",
+        "Featured on Chronicle 7 News, leading to 250% overnight growth",
+        "Expanded to campuses, hospitals & senior homes",
+      ],
+    },
+  ];
+
+  const corporateExperiences = [
     {
       title: "Product Manager",
       company: "American Medical Association (AMA)",
@@ -34,20 +67,6 @@ const Experience = () => {
       ],
       companyUrl: "https://www.copyright.com/",
     },
-    {
-      title: "Founder",
-      company: "HouseCuts",
-      period: "2020 - 2021",
-      description:
-        "Built a platform for booking in-home haircuts with local professionals. Completed 10K+ appointments and generated $325K+ revenue over 5+ years, maintaining a 5-star Google rating.",
-      highlights: [
-        "Bootstrapped company to achieve 400% ROI ($325K from $65K)",
-        "Built full-stack application in 1 year with Acuity & Square API integrations",
-        "Created a new pricing model and ran CAC-optimized campaigns from Google, Indeed, and NextDoor",
-        "Featured on Chronicle 7 News, leading to 250% overnight growth",
-        "Expanded to campuses, hospitals & senior homes",
-      ],
-    },
   ];
 
   return (
@@ -64,57 +83,116 @@ const Experience = () => {
             </p>
           </div>
 
-          {/* Timeline */}
-          <div className="space-y-8">
-            {experiences.map((exp, index) => (
-              <div key={index} className="relative animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
-                {/* Timeline line */}
-                {index !== experiences.length - 1 && (
-                  <div className="absolute left-6 top-16 bottom-0 w-0.5 bg-gradient-primary opacity-30" />
-                )}
+          {/* Startup Experience */}
+          <div className="space-y-6">
+            <h3 className="text-2xl font-bold text-foreground/90">Startup Experience</h3>
+            <div className="space-y-8">
+              {startupExperiences.map((exp, index) => (
+                <div key={index} className="relative animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
+                  {/* Timeline line */}
+                  {index !== startupExperiences.length - 1 && (
+                    <div className="absolute left-6 top-16 bottom-0 w-0.5 bg-gradient-primary opacity-30" />
+                  )}
 
-                <Card className="p-6 md:p-8 shadow-elegant hover:shadow-glow transition-all duration-300 ml-0 md:ml-14">
-                  {/* Timeline dot */}
-                  <div className="absolute left-0 md:left-6 top-8 w-12 h-12 rounded-full bg-gradient-primary flex items-center justify-center shadow-glow">
-                    <Briefcase className="w-6 h-6 text-primary-foreground" />
-                  </div>
-
-                  <div className="space-y-4 pl-16 md:pl-0">
-                    <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
-                      <div>
-                        <h3 className="text-2xl font-bold">{exp.title}</h3>
-                        <p className="text-lg text-muted-foreground">{exp.company}</p>
-                      </div>
-                      <Badge variant="secondary" className="flex items-center gap-1 w-fit">
-                        <Calendar className="w-3 h-3" />
-                        {exp.period}
-                      </Badge>
+                  <Card className="p-6 md:p-8 shadow-elegant hover:shadow-glow transition-all duration-300 ml-0 md:ml-14">
+                    {/* Timeline dot */}
+                    <div className="absolute left-0 md:left-6 top-8 w-12 h-12 rounded-full bg-gradient-primary flex items-center justify-center shadow-glow">
+                      <Briefcase className="w-6 h-6 text-primary-foreground" />
                     </div>
 
-                    <p className="text-foreground/80 leading-relaxed">{exp.description}</p>
+                    <div className="space-y-4 pl-16 md:pl-0">
+                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                        <div>
+                          <h3 className="text-2xl font-bold">{exp.title}</h3>
+                          <p className="text-lg text-muted-foreground">{exp.company}</p>
+                        </div>
+                        <Badge variant="secondary" className="flex items-center gap-1 w-fit">
+                          <Calendar className="w-3 h-3" />
+                          {exp.period}
+                        </Badge>
+                      </div>
 
-                    {exp.companyUrl && (
-                      <Button
-                        variant="outline"
-                        size="sm"
-                        asChild
-                        className="mt-4"
-                      >
-                        <a
-                          href={exp.companyUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-2"
+                      <p className="text-foreground/80 leading-relaxed">{exp.description}</p>
+
+                      {exp.companyUrl && (
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          asChild
+                          className="mt-4"
                         >
-                          View Company
-                          <ExternalLink className="w-3 h-3" />
-                        </a>
-                      </Button>
-                    )}
-                  </div>
-                </Card>
-              </div>
-            ))}
+                          <a
+                            href={exp.companyUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2"
+                          >
+                            View Company
+                            <ExternalLink className="w-3 h-3" />
+                          </a>
+                        </Button>
+                      )}
+                    </div>
+                  </Card>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Corporate Experience */}
+          <div className="space-y-6 mt-16">
+            <h3 className="text-2xl font-bold text-foreground/90">Corporate Experience</h3>
+            <div className="space-y-8">
+              {corporateExperiences.map((exp, index) => (
+                <div key={index} className="relative animate-fade-in" style={{ animationDelay: `${(startupExperiences.length + index) * 100}ms` }}>
+                  {/* Timeline line */}
+                  {index !== corporateExperiences.length - 1 && (
+                    <div className="absolute left-6 top-16 bottom-0 w-0.5 bg-gradient-primary opacity-30" />
+                  )}
+
+                  <Card className="p-6 md:p-8 shadow-elegant hover:shadow-glow transition-all duration-300 ml-0 md:ml-14">
+                    {/* Timeline dot */}
+                    <div className="absolute left-0 md:left-6 top-8 w-12 h-12 rounded-full bg-gradient-primary flex items-center justify-center shadow-glow">
+                      <Briefcase className="w-6 h-6 text-primary-foreground" />
+                    </div>
+
+                    <div className="space-y-4 pl-16 md:pl-0">
+                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                        <div>
+                          <h3 className="text-2xl font-bold">{exp.title}</h3>
+                          <p className="text-lg text-muted-foreground">{exp.company}</p>
+                        </div>
+                        <Badge variant="secondary" className="flex items-center gap-1 w-fit">
+                          <Calendar className="w-3 h-3" />
+                          {exp.period}
+                        </Badge>
+                      </div>
+
+                      <p className="text-foreground/80 leading-relaxed">{exp.description}</p>
+
+                      {exp.companyUrl && (
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          asChild
+                          className="mt-4"
+                        >
+                          <a
+                            href={exp.companyUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2"
+                          >
+                            View Company
+                            <ExternalLink className="w-3 h-3" />
+                          </a>
+                        </Button>
+                      )}
+                    </div>
+                  </Card>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
