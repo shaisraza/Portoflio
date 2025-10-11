@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
@@ -37,7 +37,7 @@ const Hero = () => {
               Shais Raza
             </h1>
             <p className="text-xl md:text-2xl text-primary-foreground/90 font-light">
-              Product Manager | B2B & B2C SaaS Expert | Tech Innovator
+              Founder | Product Manager | B2B & B2C SaaS Expert
             </p>
           </div>
 
