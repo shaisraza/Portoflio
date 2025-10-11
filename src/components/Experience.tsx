@@ -34,6 +34,7 @@ const Experience = () => {
         "Featured on Chronicle 7 News, leading to 250% overnight growth",
         "Expanded to campuses, hospitals & senior homes",
       ],
+      companyUrl: "https://housecuts.co/",
     },
   ];
 
