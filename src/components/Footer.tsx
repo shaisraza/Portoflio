@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Branding */}
             <div className="text-center md:text-left">
-              <h3 className="text-2xl font-bold mb-2">Shaiss Raza</h3>
+              <h3 className="text-2xl font-bold mb-2">Shais Raza</h3>
               <p className="text-primary-foreground/80">
                 Building the future, one project at a time.
               </p>
@@ -41,7 +41,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="mt-8 pt-8 border-t border-primary-foreground/10 text-center text-sm text-primary-foreground/60">
-            <p>© {currentYear} Shaiss Raza. All rights reserved.</p>
+            <p>© {currentYear} Shais Raza. All rights reserved.</p>
           </div>
         </div>
       </div>
