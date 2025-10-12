@@ -37,11 +37,11 @@ const Hero = () => {
             {/* Profile Picture */}
             <div className="flex-shrink-0">
               <div className="relative w-48 h-48 md:w-64 md:h-64">
-                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary-glow to-accent blur-md opacity-50 animate-glow-pulse" />
+                <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-primary-glow to-accent blur-md opacity-50 animate-glow-pulse" />
                 <img
                   src={profilePic}
                   alt="Shais Raza"
-                  className="relative w-full h-full rounded-full object-cover border-4 border-primary-foreground/20 shadow-2xl"
+                  className="relative w-full h-full rounded-lg object-cover border-4 border-primary-foreground/20 shadow-2xl"
                 />
               </div>
             </div>
