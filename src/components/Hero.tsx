@@ -1,6 +1,7 @@
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-bg.jpg";
+import profilePic from "@/assets/profile-pic.png";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -32,6 +33,18 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-6 relative z-10 pt-16">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
+          {/* Profile Picture */}
+          <div className="flex justify-center mb-8">
+            <div className="relative w-40 h-40 md:w-48 md:h-48">
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary-glow to-accent blur-md opacity-50 animate-glow-pulse" />
+              <img
+                src={profilePic}
+                alt="Shais Raza"
+                className="relative w-full h-full rounded-full object-cover border-4 border-primary-foreground/20 shadow-2xl"
+              />
+            </div>
+          </div>
+          
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground leading-tight">
               Shais Raza
