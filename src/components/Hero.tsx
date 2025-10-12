@@ -36,12 +36,12 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             {/* Profile Picture */}
             <div className="flex-shrink-0">
-              <div className="relative w-48 h-48 md:w-64 md:h-64">
-                <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-primary-glow to-accent blur-md opacity-50 animate-glow-pulse" />
+              <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-lg">
+                <div className="absolute inset-0 rounded-lg bg-gradient-primary blur-md opacity-30 animate-glow-pulse" />
                 <img
                   src={profilePic}
                   alt="Shais Raza"
-                  className="relative w-full h-full rounded-lg object-cover border-4 border-primary-foreground/20 shadow-2xl"
+                  className="relative w-full h-full rounded-lg object-cover border border-border/50 shadow-elegant hover:shadow-glow transition-all duration-300"
                 />
               </div>
             </div>
