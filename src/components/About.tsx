@@ -40,12 +40,12 @@ const About = () => {
             <div className="flex flex-col md:flex-row items-center gap-8">
               {/* Profile Picture */}
               <div className="flex-shrink-0">
-                <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-lg">
-                  <div className="absolute inset-0 rounded-lg bg-gradient-primary blur-md opacity-30 animate-glow-pulse" />
+                <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full">
+                  <div className="absolute inset-0 rounded-full bg-gradient-primary blur-md opacity-30 animate-glow-pulse" />
                   <img
                     src={profilePic}
                     alt="Shais Raza"
-                    className="relative w-full h-full rounded-lg object-cover border border-border/50 shadow-elegant hover:shadow-glow transition-all duration-300"
+                    className="relative w-full h-full rounded-full object-cover border border-border/50 shadow-elegant hover:shadow-glow transition-all duration-300"
                   />
                 </div>
               </div>
