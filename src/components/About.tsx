@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Award, Target, Lightbulb } from "lucide-react";
-import profilePic from "@/assets/profile-pic-new.jpeg";
+import profilePic from "@/assets/profile-pic-no-bg.png";
 
 const About = () => {
   const values = [
