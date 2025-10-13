@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="text-center md:text-left">
               <h3 className="text-2xl font-bold mb-2">Shais Raza</h3>
               <p className="text-primary-foreground/80">
-                Building the future, one project at a time.
+                Let's build the world together.
               </p>
             </div>
 
