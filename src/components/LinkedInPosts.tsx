@@ -5,25 +5,22 @@ import { Button } from "@/components/ui/button";
 const LinkedInPosts = () => {
   const posts = [
     {
-      title: "Product Management Insights",
-      excerpt: "Key learnings from building products at scale...",
-      date: "2 days ago",
+      title: "ChatGTP's New Agent Feature",
+      excerpt: "I know we'll see 100+ posts in the coming weeks...",
       url: "https://www.linkedin.com/in/shaissraza",
-      engagement: "45 reactions • 12 comments"
+      engagement: "21 likes"
     },
     {
-      title: "Team Collaboration Best Practices",
-      excerpt: "How cross-functional teams can work more effectively...",
-      date: "1 week ago",
+      title: "Attending Pendomonium",
+      excerpt: "Had a great time attending hashtag#Pendomonium last week with one of my co-workers and mentors",
       url: "https://www.linkedin.com/in/shaissraza",
-      engagement: "68 reactions • 18 comments"
+      engagement: "53 likes"
     },
     {
-      title: "Data-Driven Product Decisions",
-      excerpt: "Using analytics to guide feature prioritization...",
-      date: "2 weeks ago",
+      title: "AMA CX Forum",
+      excerpt: "Last week I had the opportunity to speak at American Medical Association's CX forum!",
       url: "https://www.linkedin.com/in/shaissraza",
-      engagement: "92 reactions • 24 comments"
+      engagement: "99 likes"
     },
   ];
 
@@ -52,9 +49,8 @@ const LinkedInPosts = () => {
                 className="p-6 hover:shadow-glow transition-all duration-300 border-border/50 hover:border-accent/50 group"
               >
                 <div className="space-y-4">
-                  <div className="flex items-start justify-between">
+                  <div className="flex items-start">
                     <Linkedin className="w-6 h-6 text-[#0A66C2]" />
-                    <span className="text-sm text-muted-foreground">{post.date}</span>
                   </div>
                   
                   <div className="space-y-2">
