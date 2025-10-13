@@ -7,19 +7,19 @@ const LinkedInPosts = () => {
     {
       title: "ChatGTP's New Agent Feature",
       excerpt: "I know we'll see 100+ posts in the coming weeks...",
-      url: "https://www.linkedin.com/in/shaissraza",
+      url: "https://www.linkedin.com/posts/shaissraza_delegate-work-to-chatgpt-agent-activity-7359235950377390080-f1yM?utm_source=share&utm_medium=member_desktop&rcm=ACoAACygIs0BJHdZoUmCLw-Uq52Sv_l9rETaklw",
       engagement: "21 likes"
     },
     {
       title: "Attending Pendomonium",
       excerpt: "Had a great time attending hashtag#Pendomonium last week with one of my co-workers and mentors",
-      url: "https://www.linkedin.com/in/shaissraza",
+      url: "https://www.linkedin.com/posts/shaissraza_pendomonium-pendomonium2024-ai-activity-7251593328616488960-cHuY?utm_source=share&utm_medium=member_desktop&rcm=ACoAACygIs0BJHdZoUmCLw-Uq52Sv_l9rETaklw",
       engagement: "53 likes"
     },
     {
       title: "AMA CX Forum",
       excerpt: "Last week I had the opportunity to speak at American Medical Association's CX forum!",
-      url: "https://www.linkedin.com/in/shaissraza",
+      url: "https://www.linkedin.com/posts/shaissraza_productmanagement-sso-ui-activity-7229131905722437634-ekos?utm_source=share&utm_medium=member_desktop&rcm=ACoAACygIs0BJHdZoUmCLw-Uq52Sv_l9rETaklw",
       engagement: "99 likes"
     },
   ];
