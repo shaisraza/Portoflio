@@ -41,7 +41,7 @@ const About = () => {
               {/* Profile Picture */}
               <div className="flex-shrink-0">
                 <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full">
-                  <div className="absolute inset-0 rounded-full bg-gradient-primary blur-md opacity-30 animate-glow-pulse" />
+                  <div className="absolute inset-0 rounded-full bg-gradient-primary blur-md opacity-15 animate-glow-pulse" />
                   <img
                     src={profilePic}
                     alt="Shais Raza"
