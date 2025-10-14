@@ -16,7 +16,7 @@ const Education = () => {
       field: "Microbiology",
       institution: "Michigan State University",
       year: "2014 - 2018",
-      description: "Comprehensive undergraduate education in biological sciences with a focus on research methodology and data analysis.",
+      description: "Specialized in microbial genetics, sequencing, and data analysis, while teaching 150+ undergraduate students.",
     },
   ];
 
