@@ -68,6 +68,15 @@ const Experience = () => {
       ],
       companyUrl: "https://www.copyright.com/",
     },
+    {
+      title: "Teaching Assistant",
+      company: "Michigan State University",
+      period: "2016 - 2018",
+      description:
+        "Taught four biology courses to 150+ undergrads through labs and lectures. Led Draw a Biologist research project, winning an award at the Lyman Briggs Symposium.",
+      companyUrl: "https://bierema.wordpress.com/research/",
+      ctaText: "View Project",
+    },
   ];
 
   return (
@@ -184,7 +193,7 @@ const Experience = () => {
                             rel="noopener noreferrer"
                             className="flex items-center gap-2"
                           >
-                            View Company
+                            {exp.ctaText || "View Company"}
                             <ExternalLink className="w-3 h-3" />
                           </a>
                         </Button>
