@@ -54,7 +54,7 @@ const About = () => {
               <div className="flex-1">
                 <div className="prose prose-lg max-w-none">
                   <p className="text-foreground/80 leading-relaxed">
-                    I'm a Product Manager with 5+ years of experience building B2B and B2C SaaS products 
+                    I'm a Product Manager and Founder with 5+ years of experience building B2B and B2C SaaS products 
                     for Fortune 500 companies and millions of users. My career has been defined by leading 
                     cross-functional teams, launching features that solve real problems, and aligning product 
                     strategy with business goals and customer needs.
