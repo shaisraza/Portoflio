@@ -9,7 +9,7 @@ const Education = () => {
       field: "Entrepreneurship & Technology",
       institution: "Babson College, F.W Olin Graduate School of Business",
       year: "2019 - 2020",
-      description: "Advanced studies combining entrepreneurship, technology, and business strategy.",
+      description: "Advanced studies combining entrepreneurship, technology, agile development, and go to market strategy.",
     },
     {
       degree: "Bachelor of Science",
