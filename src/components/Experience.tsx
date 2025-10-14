@@ -120,7 +120,7 @@ const Experience = () => {
                           variant="outline"
                           size="sm"
                           asChild
-                          className="mt-4"
+                          className="mt-4 bg-primary text-primary-foreground hover:bg-primary/90 border-primary"
                         >
                           <a
                             href={exp.companyUrl}
@@ -176,7 +176,7 @@ const Experience = () => {
                           variant="outline"
                           size="sm"
                           asChild
-                          className="mt-4"
+                          className="mt-4 bg-primary text-primary-foreground hover:bg-primary/90 border-primary"
                         >
                           <a
                             href={exp.companyUrl}
