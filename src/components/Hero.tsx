@@ -50,7 +50,7 @@ const Hero = () => {
             <Button
               size="lg"
               onClick={() => scrollToSection("experience")}
-              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-glow px-8"
+              className="bg-primary-foreground/90 text-primary hover:bg-accent hover:text-accent-foreground shadow-glow px-8 transition-all duration-300"
             >
               View My Work
             </Button>
