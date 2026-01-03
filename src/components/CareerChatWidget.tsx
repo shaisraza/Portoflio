@@ -22,12 +22,13 @@ const CareerChatWidget = () => {
           </div>
 
           {/* HuggingFace Widget */}
-          <Card className="overflow-hidden shadow-elegant animate-fade-in border-border/50">
+          <Card className="overflow-hidden shadow-elegant animate-fade-in border-border/50 flex justify-center p-4">
             <iframe
-              src="https://huggingface.co/spaces/shaisraza/Career_Conversation?embed=true"
+              src="https://shaisraza-career-conversation.hf.space"
               title="Career Conversation AI"
-              className="w-full h-[600px] border-0"
-              allow="microphone"
+              frameBorder="0"
+              width="850"
+              height="450"
             />
           </Card>
         </div>
