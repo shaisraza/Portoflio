@@ -14,7 +14,7 @@ const CareerChatWidget = () => {
               </div>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              Chat With My AI
+              Chat With My Agent
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Have a conversation about my career, experience, and expertise

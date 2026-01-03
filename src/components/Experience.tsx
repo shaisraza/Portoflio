@@ -93,68 +93,12 @@ const Experience = () => {
             </p>
           </div>
 
-          {/* Startup Experience */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-foreground/90">Startup Experience</h3>
-            <div className="space-y-8">
-              {startupExperiences.map((exp, index) => (
-                <div key={index} className="relative animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
-                  {/* Timeline line */}
-                  {index !== startupExperiences.length - 1 && (
-                    <div className="absolute left-6 top-16 bottom-0 w-0.5 bg-gradient-primary opacity-30" />
-                  )}
-
-                  <Card className="p-6 md:p-8 shadow-elegant hover:shadow-glow transition-all duration-300 ml-0 md:ml-14">
-                    {/* Timeline dot */}
-                    <div className="absolute left-0 md:left-6 top-8 w-12 h-12 rounded-full bg-gradient-primary flex items-center justify-center shadow-glow">
-                      <Briefcase className="w-6 h-6 text-primary-foreground" />
-                    </div>
-
-                    <div className="space-y-4 pl-16 md:pl-0">
-                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
-                        <div>
-                          <h3 className="text-2xl font-bold">{exp.title}</h3>
-                          <p className="text-lg text-muted-foreground">{exp.company}</p>
-                        </div>
-                        <Badge variant="secondary" className="flex items-center gap-1 w-fit">
-                          <Calendar className="w-3 h-3" />
-                          {exp.period}
-                        </Badge>
-                      </div>
-
-                      <p className="text-foreground/80 leading-relaxed">{exp.description}</p>
-
-                      {exp.companyUrl && (
-                        <Button
-                          variant="outline"
-                          size="sm"
-                          asChild
-                          className="mt-4 bg-primary text-primary-foreground hover:bg-primary/90 border-primary"
-                        >
-                          <a
-                            href={exp.companyUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-2"
-                          >
-                            View Company
-                            <ExternalLink className="w-3 h-3" />
-                          </a>
-                        </Button>
-                      )}
-                    </div>
-                  </Card>
-                </div>
-              ))}
-            </div>
-          </div>
-
           {/* Corporate Experience */}
-          <div className="space-y-6 mt-16">
+          <div className="space-y-6">
             <h3 className="text-2xl font-bold text-foreground/90">Corporate Experience</h3>
             <div className="space-y-8">
               {corporateExperiences.map((exp, index) => (
-                <div key={index} className="relative animate-fade-in" style={{ animationDelay: `${(startupExperiences.length + index) * 100}ms` }}>
+                <div key={index} className="relative animate-fade-in" style={{ animationDelay: `${index * 100}ms` }}>
                   {/* Timeline line */}
                   {index !== corporateExperiences.length - 1 && (
                     <div className="absolute left-6 top-16 bottom-0 w-0.5 bg-gradient-primary opacity-30" />
@@ -194,6 +138,62 @@ const Experience = () => {
                             className="flex items-center gap-2"
                           >
                             {exp.ctaText || "View Company"}
+                            <ExternalLink className="w-3 h-3" />
+                          </a>
+                        </Button>
+                      )}
+                    </div>
+                  </Card>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Startup Experience */}
+          <div className="space-y-6 mt-16">
+            <h3 className="text-2xl font-bold text-foreground/90">Startup Experience</h3>
+            <div className="space-y-8">
+              {startupExperiences.map((exp, index) => (
+                <div key={index} className="relative animate-fade-in" style={{ animationDelay: `${(corporateExperiences.length + index) * 100}ms` }}>
+                  {/* Timeline line */}
+                  {index !== startupExperiences.length - 1 && (
+                    <div className="absolute left-6 top-16 bottom-0 w-0.5 bg-gradient-primary opacity-30" />
+                  )}
+
+                  <Card className="p-6 md:p-8 shadow-elegant hover:shadow-glow transition-all duration-300 ml-0 md:ml-14">
+                    {/* Timeline dot */}
+                    <div className="absolute left-0 md:left-6 top-8 w-12 h-12 rounded-full bg-gradient-primary flex items-center justify-center shadow-glow">
+                      <Briefcase className="w-6 h-6 text-primary-foreground" />
+                    </div>
+
+                    <div className="space-y-4 pl-16 md:pl-0">
+                      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                        <div>
+                          <h3 className="text-2xl font-bold">{exp.title}</h3>
+                          <p className="text-lg text-muted-foreground">{exp.company}</p>
+                        </div>
+                        <Badge variant="secondary" className="flex items-center gap-1 w-fit">
+                          <Calendar className="w-3 h-3" />
+                          {exp.period}
+                        </Badge>
+                      </div>
+
+                      <p className="text-foreground/80 leading-relaxed">{exp.description}</p>
+
+                      {exp.companyUrl && (
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          asChild
+                          className="mt-4 bg-primary text-primary-foreground hover:bg-primary/90 border-primary"
+                        >
+                          <a
+                            href={exp.companyUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2"
+                          >
+                            View Company
                             <ExternalLink className="w-3 h-3" />
                           </a>
                         </Button>
