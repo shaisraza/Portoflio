@@ -13,7 +13,7 @@ const CareerChatWidget = () => {
                 <MessageSquare className="w-6 h-6 text-primary-foreground" />
               </div>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+            <h2 className="text-4xl md:text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent pb-1">
               Chat With My Agent
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
