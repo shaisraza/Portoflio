@@ -15,11 +15,11 @@ const Experience = () => {
     },
     {
       title: "Founder",
-      company: "AptShine",
+      company: "Matrxz",
       period: "2023 - 2025",
       description:
-        "Developed full-stack application allowing people to book cleaning services for their apartments/condos in the greater Chicago area. Regularly service 15+ buildings on a monthly basis with a network of 20+ professionals.",
-      companyUrl: "https://www.aptshine.com/",
+        "Provide services for obtaining custom domains, logo creation, website development, authentication integration, and AI agent deployment.",
+      companyUrl: "https://matrxz.com/",
     },
     {
       title: "Founder",
