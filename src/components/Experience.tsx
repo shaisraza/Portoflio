@@ -10,7 +10,7 @@ const Experience = () => {
       company: "Autoaply",
       period: "2025 - Present",
       description:
-        "Vibe coded a platform that allows people to automatically apply to jobs using AI agents. Integrated Langchain, Stripe, Supabase. Scaled platform to 1k+ users without any marketing spend.",
+        "Vibe coded a platform that allows people to automatically apply to jobs using AI agents. Integrated Langchain, Stripe, Supabase.",
       companyUrl: "https://www.autoaply.co/",
     },
     {
