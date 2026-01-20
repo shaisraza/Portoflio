@@ -49,10 +49,10 @@ const Hero = () => {
           <div className="flex justify-center pt-4">
             <Button
               size="lg"
-              onClick={() => scrollToSection("experience")}
+              onClick={() => scrollToSection("career-chat")}
               className="bg-primary-foreground/90 text-primary hover:bg-accent hover:text-accent-foreground shadow-glow px-8 transition-all duration-300"
             >
-              View My Work
+              Chat with my AI Agent
             </Button>
           </div>
         </div>
