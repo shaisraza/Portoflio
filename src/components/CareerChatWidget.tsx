@@ -28,7 +28,7 @@ const CareerChatWidget = () => {
               title="Career Conversation AI"
               frameBorder="0"
               width="850"
-              height="500"
+              height="300"
             />
           </Card>
         </div>
