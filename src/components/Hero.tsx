@@ -37,12 +37,12 @@ const Hero = () => {
               Shais Raza
             </h1>
             <p className="text-xl md:text-2xl text-primary-foreground/90 font-light">
-              SaaS | Founder | Product Manager
+              Cloud | SaaS | Authentication
             </p>
           </div>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 leading-relaxed max-w-4xl mx-auto">
-            5+ years of experience building B2B and B2C Software as a Service (SaaS) products for Fortune 500s and millions of users.
+            7+ years of experience building B2B and B2C Software as a Service (SaaS) products for Fortune 500s and millions of users.
             Skilled at leading teams, launching features that solve problems, and aligning product strategy with business goals.
           </p>
 

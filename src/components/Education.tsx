@@ -21,9 +21,8 @@ const Education = () => {
   ];
 
   const certifications = [
+    "Agentic AI & MCPs",
     "Full-Stack Development with MERN and GenAI",
-    "SAFe Product Owner - Product Manager",
-    "Quantum Metrics, Testim Foundations",
   ];
 
   return (
