@@ -37,7 +37,7 @@ const Hero = () => {
               Shais Raza
             </h1>
             <p className="text-xl md:text-2xl text-primary-foreground/90 font-light">
-              Cloud | SaaS | Authentication
+              SaaS | AI | UI/UX
             </p>
           </div>
 
