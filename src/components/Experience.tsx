@@ -40,7 +40,7 @@ const Experience = () => {
 
   const corporateExperiences = [
     {
-      title: "Technical Program Manager",
+      title: "Product Manager",
       company: "American Medical Association (AMA)",
       period: "2023 - Present",
       description:
@@ -55,7 +55,7 @@ const Experience = () => {
       companyUrl: "https://ama-assn.org/",
     },
     {
-      title: "Program Manager",
+      title: "Associate Product Manager",
       company: "Copyright Clearance Center (CCC)",
       period: "2021 - 2023",
       description:
